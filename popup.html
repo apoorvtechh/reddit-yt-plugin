@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reddit Comment Analyzer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: #f1f1f1;
+      width: 320px;
+      padding: 10px;
+    }
+    h1 { font-size: 18px; }
+    button {
+      background-color: #0099ff;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 4px;
+    }
+    #response {
+      margin-top: 15px;
+      background: #333;
+      padding: 10px;
+      border-radius: 4px;
+      min-height: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Reddit Comment Analyzer</h1>
+  <button id="sendRequest">Analyze Random Comment</button>
+  <div id="response"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
