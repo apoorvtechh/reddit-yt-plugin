@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     analyzeBtn.addEventListener("click", async () => {
       setLoading(true, "Fetching comments...");
       try {
-        const fetchRes = await fetch(`http://localhost:5000/fetch/${postId}`);
+        const fetchRes = await fetch(`https://insightreddit.duckdns.org/fetch/${postId}`);
         const fetchData = await fetchRes.json();
         if (fetchData.error) throw new Error(fetchData.error);
 
