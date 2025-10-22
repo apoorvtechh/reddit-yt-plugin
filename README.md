@@ -6,6 +6,15 @@ Built by **Apoorv Gupta** (📧 [apoorvtechh@gmail.com](mailto:apoorvtechh@gmail
 📄 [🔗 View Project Synopsis](https://synopsis-yqdbpufcczaocxsai2zp3w.streamlit.app/)
 
 ---
+## 🧩 Installation
+
+1. Open the Chrome Web Store link below:  
+   👉 [Add InsightReddit to Chrome](https://chromewebstore.google.com/detail/insightreddit/ldhjhlbadkgikjmdaknfejeoogpgpgbh?utm_source=ext_app_menu)
+2. Click **"Add to Chrome"**.
+3. Once installed, browse any Reddit post — the extension will automatically display sentiment insights.  
+> ⚠️ Works only on **Google Chrome** (not supported on Firefox or Edge).
+
+
 
 ## 🌟 Features
 
@@ -70,3 +79,5 @@ Built by **Apoorv Gupta** (📧 [apoorvtechh@gmail.com](mailto:apoorvtechh@gmail
 **Apoorv Gupta**  
 📧 [apoorvtechh@gmail.com](mailto:apoorvtechh@gmail.com)  
 🔗 [Project Synopsis](https://synopsis-yqdbpufcczaocxsai2zp3w.streamlit.app/)
+🧩 [InsightReddit – Chrome Extension](https://chromewebstore.google.com/detail/insightreddit/ldhjhlbadkgikjmdaknfejeoogpgpgbh?utm_source=ext_app_menu)
+
