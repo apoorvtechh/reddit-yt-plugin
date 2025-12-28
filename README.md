@@ -1,36 +1,50 @@
-# 🧠 InsightReddit — Reddit Sentiment Analyzer (Chrome Extension)
+# InsightReddit — Reddit Sentiment Analyzer (Chrome Extension)
 
-> Analyze Reddit vibes in seconds — spot positivity, negativity, and everything in between.
+Analyze sentiment across Reddit discussions in real time and uncover community opinions at scale.
 
-Built by **Apoorv Gupta** (📧 [apoorvtechh@gmail.com](mailto:apoorvtechh@gmail.com))  
-📄 [🔗 View Project Synopsis](https://synopsis-yqdbpufcczaocxsai2zp3w.streamlit.app/)
-
----
-## 🧩 Installation
-
-1. Open the Chrome Web Store link below:  
-   👉 [Add InsightReddit to Chrome](https://chromewebstore.google.com/detail/insightreddit/ldhjhlbadkgikjmdaknfejeoogpgpgbh?utm_source=ext_app_menu)
-2. Click **"Add to Chrome"**.
-3. Once installed, browse any Reddit post — the extension will automatically display sentiment insights.  
-> ⚠️ Works only on **Google Chrome** (not supported on Firefox or Edge).
-
-
-
-## 🌟 Features
-
-- 🚀 One-click sentiment analysis of Reddit posts  
-- 📊 Sentiment distribution visualization (Positive / Neutral / Negative)  
-- 🌈 Word clouds for each sentiment category  
-- 🧠 Real-time metrics: total comments, unique commenters, average length, sentiment score  
-- 💬 Top comments grouped by sentiment  
-- 🌑 Dark theme UI with responsive cards and charts  
-- ⚡ Fast backend inference using a hosted ML model
+**Author:** Apoorv Gupta  
+**Contact:** apoorvtechh@gmail.com  
+**Project Synopsis:** https://synopsis-yqdbpufcczaocxsai2zp3w.streamlit.app/
 
 ---
 
-## 📁 Project Structure
+## Overview
 
-📂 InsightReddit/
+InsightReddit is a production-ready Chrome Extension that performs real-time sentiment analysis on Reddit comment threads. It automatically extracts comments from active Reddit posts and delivers structured sentiment insights directly within the browser using a deployed machine learning backend.
+
+---
+
+## Installation
+
+1. Open the Chrome Web Store listing:  
+   https://chromewebstore.google.com/detail/insightreddit/ldhjhlbadkgikjmdaknfejeoogpgpgbh
+2. Click **Add to Chrome**.
+3. Navigate to any Reddit post. Sentiment insights will appear automatically.
+
+**Note:** Supported only on Google Chrome (Manifest V3). Not supported on Firefox or Edge.
+
+---
+
+## Features
+
+- One-click sentiment analysis for Reddit comment threads  
+- Sentiment distribution across Positive, Neutral, and Negative classes  
+- Word cloud visualization per sentiment category  
+- Aggregated metrics including total comments, unique commenters, average comment length, and overall sentiment score  
+- Top comments grouped by sentiment  
+- Dark-themed, responsive UI optimized for readability  
+- Low-latency inference via a hosted ML backend
+
+---
+
+## Project Structure
+
+
+
+
+InsightReddit/
+
+│
 
 ├── manifest.json
 
@@ -42,6 +56,8 @@ Built by **Apoorv Gupta** (📧 [apoorvtechh@gmail.com](mailto:apoorvtechh@gmail
 
 ├── README.md
 
+│
+
 ├── icons/
 
 │   ├── icon16.png
@@ -50,34 +66,39 @@ Built by **Apoorv Gupta** (📧 [apoorvtechh@gmail.com](mailto:apoorvtechh@gmail
 
 │   └── icon128.png
 
+│
+
 └── libs/
 
 ├── chart.umd.min.js
 
 └── wordcloud2.js
 
----
+## Requirements
 
-## 📌 Requirements
-
-- 🧭 Google Chrome (Manifest V3)  
-- 🌐 Internet connection  
-- ⚡ Backend running at [https://insightreddit.duckdns.org](https://insightreddit.duckdns.org)
+- Google Chrome (Manifest V3 compatible)
+- Active internet connection
+- Backend service running at https://insightreddit.duckdns.org
 
 ---
 
-## 🧪 Tech Stack
+## Tech Stack
 
-- **Frontend:** HTML, CSS (Dark Theme), JavaScript, Chart.js, WordCloud2.js  
-- **Backend:** Flask-based sentiment analysis model hosted inside a **Docker container on AWS EC2**  
-- **Platform:** Chrome Extensions (Manifest V3)  
-- **Deployment:** Docker + AWS EC2 + DuckDNS 
+**Frontend:** HTML, CSS (Dark Theme), JavaScript, Chart.js, WordCloud2.js  
+**Backend:** Python (Flask), Machine Learning sentiment model, Docker, AWS EC2, DuckDNS
+
 ---
 
-## 👨‍💻 Author
+## Use Cases
 
-**Apoorv Gupta**  
-📧 [apoorvtechh@gmail.com](mailto:apoorvtechh@gmail.com)  
-🔗 [Project Synopsis](https://synopsis-yqdbpufcczaocxsai2zp3w.streamlit.app/)
-🧩 [InsightReddit – Chrome Extension](https://chromewebstore.google.com/detail/insightreddit/ldhjhlbadkgikjmdaknfejeoogpgpgbh?utm_source=ext_app_menu)
+- Social sentiment analysis  
+- Community opinion monitoring  
+- Product and topic perception analysis  
+- NLP and MLOps portfolio demonstration  
+- Real-world browser-based ML deployment example
 
+---
+
+## License
+
+This project is intended for educational and portfolio purposes.
